@@ -1,0 +1,16 @@
+PODS:
+  - BTCheckout (0.1.0)
+
+DEPENDENCIES:
+  - BTCheckout (from `../`)
+
+EXTERNAL SOURCES:
+  BTCheckout:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BTCheckout: e43aab97517ab0f9ba0a39eeddfa6eba7dd731b5
+
+PODFILE CHECKSUM: 7c2becb5d28ea8551b5d84a63f109e6f267be273
+
+COCOAPODS: 1.4.0

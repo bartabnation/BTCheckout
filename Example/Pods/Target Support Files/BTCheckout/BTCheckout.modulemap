@@ -1,0 +1,6 @@
+framework module BTCheckout {
+  umbrella header "BTCheckout-umbrella.h"
+
+  export *
+  module * { export * }
+}
