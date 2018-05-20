@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BTCheckout_Example' do
+  pod 'BTCheckout', :path => '../'
+
+  target 'BTCheckout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
