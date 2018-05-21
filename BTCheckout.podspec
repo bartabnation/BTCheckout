@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
 The purpose of this pod is to take a ticket object from a POS, map it onto a url as query parameters, and then deep link with this url to the Bartab app. However, this cocoa pod is at a very early stage of development. It works in the most basic sense and this example gets the point across as to what it takes to integrate the Bartab checkout method into any POS. That being said there will be testing and refactoring in the near future."
                        DESC
 
-  s.homepage         = 'https://github.com/jsmellz/BTCheckout'
+  s.homepage         = 'https://github.com/bartabnation/BTCheckout'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jsmellz' => 'jcbssmall@gmail.com' }
-  s.source           = { :git => 'https://github.com/jsmellz/BTCheckout.git', :tag => s.version.to_s }
+  s.author           = { 'bartabteam' => 'bartabteam@gmail.com' }
+  s.source           = { :git => 'https://github.com/bartabnation/BTCheckout.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
