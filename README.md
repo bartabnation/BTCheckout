@@ -32,7 +32,7 @@ pod 'BTCheckout'
 
 ## Author
 
-jsmellz, jcbssmall@gmail.com
+jsmellz
 
 ## License
 
