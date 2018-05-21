@@ -8,45 +8,44 @@
 
 import UIKit
 
-// import pod
+// MARK: import pod
 import BTCheckout
 
 class ViewController: UIViewController {
     
-    let tick = Ticket()
+    let ticket = Ticket()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
     }
+    
+    // MARK: on button tap deep link to Bartab app with ticket object as query parameters
     
     @IBAction func bartabCheckout(_ sender: Any) {
-        // call Deep link object with Ticket object type and Item object type and ticket object passed in
-        print("HERE")
-        BTDeepLinkTicket(tick)
+        
+        // MARK: pass ticket object to deep linking function
+        
+        BTDeepLinkTicket(ticket)
     }
     
-
 }
+
+// MARK: standin ticket object
 
 struct Ticket {
-    var penis = "joshy"
-    var het = 12323434
-    var vagina = "2242425"
-    var hat = 123
-    var array = ["one":"two","three":"four"]
-    var things = [Item.init(name:"one",thingy:"two",price:"three")]
-    
+    var identifier = "ticket1"
+    var items = [Item.init(name:"beer",price:123), Item.init(name:"wine",price:123)]
+    var tax = 123
+    var subtotal = 123
 }
+
+// MARK: standin item object
 
 struct Item {
     var name: String?
-    var thingy: String?
-    var price: String?
-    init(name: String,thingy: String, price: String) {
+    var price: Int?
+    init(name: String,price: Int) {
         self.name = name
-        self.thingy = thingy
         self.price = price
     }
 }

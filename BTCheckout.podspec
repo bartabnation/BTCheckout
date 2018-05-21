@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+"
+The purpose of this pod is to take a ticket object from a POS, map it onto a url as query parameters, and then deep link with this url to the Bartab app. However, this cocoa pod is at a very early stage of development. It works in the most basic sense and this example gets the point across as to what it takes to integrate the Bartab checkout method into any POS. That being said there will be testing and refactoring in the near future."
                        DESC
 
   s.homepage         = 'https://github.com/jsmellz/BTCheckout'
