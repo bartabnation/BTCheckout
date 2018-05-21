@@ -13,10 +13,10 @@
 		361D64422338E361E4FDF327B8F98A19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		58FD99ACE48EA08FD960EB9DDC3C47DC /* BTCheckout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1BB02840E6B877B023E2E757FEE07DD /* BTCheckout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5FA2B48F7264F4E550DF7B264F619AEE /* Pods-BTCheckout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC90DF552EB2880BF4DAAD0D297F0F2A /* Pods-BTCheckout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F8FB8A120B10BE10096A893 /* BTCheckoutDeepLinker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8FB8A020B10BE10096A893 /* BTCheckoutDeepLinker.swift */; };
 		B4232D72E84911322B84675D3CAEB18D /* Pods-BTCheckout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E7D26285E179735280A466B3708269 /* Pods-BTCheckout_Tests-dummy.m */; };
 		BF30071DD7F97958377177349C377D56 /* Pods-BTCheckout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51783F7990C86BFCE593627E5F642E6B /* Pods-BTCheckout_Example-dummy.m */; };
 		DC52261252D474761BD19061B8C17164 /* BTCheckout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6799F4EC8B11B4D389798B831F5A49FE /* BTCheckout-dummy.m */; };
-		F54CB029B2CA267CA79ED25FD5010D0D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF1AAAA9E4D3253B7716E16E4892871 /* ReplaceMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,11 +51,11 @@
 		8F7120B3B72C3B44A2CF9D98BB4D1943 /* Pods_BTCheckout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BTCheckout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91275752208D17D3EFFA9CE013371FE7 /* Pods-BTCheckout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTCheckout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F8FB8A020B10BE10096A893 /* BTCheckoutDeepLinker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BTCheckoutDeepLinker.swift; path = BTCheckout/Classes/BTCheckoutDeepLinker.swift; sourceTree = "<group>"; };
 		A1BB02840E6B877B023E2E757FEE07DD /* BTCheckout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTCheckout-umbrella.h"; sourceTree = "<group>"; };
 		AF835E29C27096FC7B1ED495251C309A /* Pods-BTCheckout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTCheckout_Tests-resources.sh"; sourceTree = "<group>"; };
 		B06B93AAA3BA555A527728B1FD744427 /* Pods-BTCheckout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BTCheckout_Example.modulemap"; sourceTree = "<group>"; };
 		CDE196EB138E034521B18BC2CEE170AA /* Pods-BTCheckout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTCheckout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CEF1AAAA9E4D3253B7716E16E4892871 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BTCheckout/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		D382B35320A3D57D2D145DB6639C9578 /* Pods-BTCheckout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTCheckout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D5B86106827F524716E9427932922D27 /* Pods-BTCheckout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTCheckout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D914FA97906DF64FA926DE1344E82FE9 /* Pods-BTCheckout_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTCheckout_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -148,9 +148,9 @@
 		7751A3CCADAECBA3B4519BC48BD087BA /* BTCheckout */ = {
 			isa = PBXGroup;
 			children = (
-				CEF1AAAA9E4D3253B7716E16E4892871 /* ReplaceMe.swift */,
 				75DC829EE44410EBCF6323DE038C275B /* Pod */,
 				69A7D63B9346AB6AE8A0D68E177E71BF /* Support Files */,
+				9F8FB8A020B10BE10096A893 /* BTCheckoutDeepLinker.swift */,
 			);
 			name = BTCheckout;
 			path = ../..;
@@ -310,6 +310,13 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					79732844C842FFE32BC28DDBEDA70043 = {
+						DevelopmentTeam = 4P2FHR88X4;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,8 +350,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8FB8A120B10BE10096A893 /* BTCheckoutDeepLinker.swift in Sources */,
 				DC52261252D474761BD19061B8C17164 /* BTCheckout-dummy.m in Sources */,
-				F54CB029B2CA267CA79ED25FD5010D0D /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,22 +600,26 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFDDE9F15A7D377D226E216F0F88AC63 /* BTCheckout.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4P2FHR88X4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/BTCheckout/BTCheckout-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BTCheckout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BTCheckout/BTCheckout.modulemap";
 				PRODUCT_NAME = BTCheckout;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -659,22 +670,26 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EFDDE9F15A7D377D226E216F0F88AC63 /* BTCheckout.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4P2FHR88X4;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/BTCheckout/BTCheckout-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BTCheckout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BTCheckout/BTCheckout.modulemap";
 				PRODUCT_NAME = BTCheckout;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
