@@ -30,9 +30,9 @@ it, simply add the following line to your Podfile:
 pod 'BTCheckout'
 ```
 
-add the bartab url scheme by adding this to info.plist
+add the bartab app url scheme by adding this to info.plist
 
-<key>CFBundleURLTypes</key>
+```<key>CFBundleURLTypes</key>
     <array>
         <dict>
             <key>CFBundleURLSchemes</key>
@@ -43,6 +43,8 @@ add the bartab url scheme by adding this to info.plist
                 <string>bartab</string>
         </dict>
     </array>
+```
+see example f
 
 ## Author
 
