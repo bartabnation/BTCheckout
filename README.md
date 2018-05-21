@@ -32,7 +32,8 @@ pod 'BTCheckout'
 
 add the bartab app url scheme by adding this to info.plist
 
-```<key>CFBundleURLTypes</key>
+```
+<key>CFBundleURLTypes</key>
     <array>
         <dict>
             <key>CFBundleURLSchemes</key>
